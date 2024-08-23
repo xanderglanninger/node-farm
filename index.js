@@ -93,6 +93,6 @@ const server = http.createServer((req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-server.listen(PORT, "127.0.0.1", () => {
+server.listen(PORT, "0.0.0.0", () => {
   console.log("Listening to responses on port 3000");
 });
